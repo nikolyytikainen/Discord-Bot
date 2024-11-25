@@ -1,0 +1,8 @@
+#IDE confs
+.idea/
+
+# Byte-compiled files
+__pycache__/
+
+# env
+.env
