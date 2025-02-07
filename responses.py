@@ -136,7 +136,6 @@ def register_commands(bot):
             "!noppa\n"
             "!kolikko\n"
             "!casesimu\n"
-            "!niilo\n"
             "!casestats\n"
             "!faceitfinder`"
         )
@@ -193,8 +192,5 @@ def register_commands(bot):
             f"Kultaisia: {gold}"
         )
 
-    @bot.command(name="niilo")
-    async def niilo_command(ctx):
-        await ctx.send("https://media1.tenor.com/m/t15UaGbXiMQAAAAd/niilo22-fragilex.gif")
     
 
